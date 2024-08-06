@@ -57,7 +57,7 @@ if __name__ == "__main__":
             completion_func = chat_completion_openai_azure
         elif "gpt" in model:
             template_name = "chatgpt"
-            completion_func = chat_completion_openai
+            completion_func = chat_completion_openai_azure
         elif "claude" in model:
             template_name = "claude"
             completion_func = chat_completion_anthropic
